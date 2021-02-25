@@ -10,7 +10,7 @@ public class Num {
         digitos = new int[4];
         Arrays.fill(digitos, -1);
     }
-    
+
     /*
     Constructor con parametros.
     Inicializa el arreglo de enteros digitos y acomoda los digitos del entero num en él.
@@ -136,7 +136,7 @@ public class Num {
     }
 
     /*
-    Recibe un entero n y regresa nombres de los millares del 1000 - 9000
+    Recibe un entero n y regresa nombres de los millares del 1000 al 9000
     */
     private String getMillares(int n) {
         String numero = "";

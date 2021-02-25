@@ -10,7 +10,7 @@ public class Main {
             System.out.println("El número que ingresaste fue:");
             System.out.println(numero);
         } catch(Exception e) {
-            System.out.println("No es un número");
+            System.out.println("No es un número.");
         }
         
         input.close();
